@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Syne", sans-serif;
+  color: #343a40;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 800px;
+  margin: 100px;
+  font-size: 18px;
+  /* border: 1px solid #343a40;*/
+  border-collapse: collapse;
+}
+
+td,
+th {
+  /* border: 1px solid #343a40; */
+  padding: 16px 24px;
+  text-align: left;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: blanchedalmond;
+}
+
+tbody tr:nth-of-type(odd) {
+  background-color: beige;
+}
+
+thead th {
+  background-color: #087f5b;
+  color: #fff;
+  width: 25%;
+}
