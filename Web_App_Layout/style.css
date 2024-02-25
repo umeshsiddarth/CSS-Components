@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: #343a40;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  display: grid;
+  grid-template-columns: 80px 400px 1fr 250px;
+  grid-template-rows: 8vh 92vh;
+}
+
+nav,
+section,
+main,
+aside {
+  padding-top: 24px;
+}
+
+nav {
+  background-color: #343a40;
+  color: #fff;
+  grid-row: 1/-1;
+}
+
+menu {
+  background-color: #7048e8;
+  color: #fff;
+  grid-column: 2/-1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 40px;
+}
+
+section {
+  background-color: #e9ecef;
+  padding: 40px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+aside {
+  background-color: #e9ecef;
+}
+
+button {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #5f3dc4;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+button:last-child {
+  background-color: #d6336c;
+  margin-left: auto;
+}
+
+.email {
+  background-color: #adb5bd;
+  height: 96px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
